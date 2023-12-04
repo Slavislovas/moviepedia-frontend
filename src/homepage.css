@@ -1,0 +1,17 @@
+/* Add these styles to your HomePage.css or App.css */
+.home-container {
+    overflow: hidden;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .carousel-item {
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Set your preferred background color */
+  }
