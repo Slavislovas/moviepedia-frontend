@@ -40,7 +40,7 @@ const Login = () => {
         setSnackbarOpen(true);
       }
     } catch (error) {
-      setErrorMessage('An unexpected error occurred during login.');
+      setErrorMessage(error.response.data.message);
       setSnackbarOpen(true);
     } finally {
       setLoading(false);
